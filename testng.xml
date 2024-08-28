@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API">
+    <listeners>
+        <listener class-name="utilities.listeners.TestNGListener"/>
+    </listeners>
+    <test name="TasksRunner">
+        <classes>
+            <class name="utilities.extentreport.ExtentReport"/>
+            <class name="tests.getrequest.GetRequestRunner"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
