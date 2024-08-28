@@ -17,7 +17,6 @@ import static org.hamcrest.Matchers.equalTo;
 
 public class GetRequestSteps {
     private Response response;
-    SoftAssert softAssert = new SoftAssert();
 
     @Given("the base URL is set")
     public void initiateTest(){
